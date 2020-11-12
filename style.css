@@ -1,0 +1,85 @@
+/* Colors and fonts */
+
+body {
+	background: #eeeeee;
+	color: #686d76;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+h1 {
+	color: #2d6187;
+	font-family:'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h2 {
+	color: #28abb9;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color: #8f384d;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+	color: #373a40;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.image-circle {
+	border-radius: 50%;
+	width: 120px;
+}
+
+.btn-blue {
+	background-color: #28abb9;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #2d6187;
+}
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
